@@ -51,7 +51,7 @@ df = pd.read_csv(DATA_PATH, encoding='utf8')
 tokenizer = BertTokenizer.from_pretrained(PRE_TRAINED_MODEL_NAME)
 
 
-class EmotionDataset(Dataset):
+class CancerEmoDataset(Dataset):
     def __init__(self, sentences, targets, tokenizer, max_len):
         self.sentences = sentences
         self.targets = targets
@@ -91,7 +91,7 @@ class EmotionDataset(Dataset):
     
     
 def create_data_loader(df, tokenizer, max_len, batch_size):
-    ds = EmotionDataset(
+    ds = CancerEmoDataset(
         sentences = df.Sentence.to_numpy(),
         targets = df[EMOTION].to_numpy(),
         tokenizer = tokenizer,

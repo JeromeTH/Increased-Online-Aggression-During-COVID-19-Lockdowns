@@ -55,7 +55,7 @@ device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 print("-" * 50)
 print(f'using {device}')
 
-class EmotionDataset(Dataset):
+class CancerEmoDataset(Dataset):
     def __init__(self, sentences, targets, tokenizer, max_len):
         self.sentences = sentences
         self.targets = targets
