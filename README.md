@@ -10,5 +10,14 @@ This research consists of 3 parts
 3. Use STATA to perform DID causal analysis 
 
 
+## Training the BERT model
+
+Source code for this part is located in the "Model Training" folder
+
+This includes standard datapreprocessing for BERT models, training procedures, and model evaluation. The training data has a "Split" label with 0 meaning training, 1 meaning validation, and 2 meaning testing. 
+
+## Analyzing Trends of Aggressive Emotions
+
+In this section, we used the trained BERT model, one for each of the three emotions, to analyze aggression in our spatiotemporal dataset of US tweets. Due to Twitter's data sharing policy, this dataset can not be opened to all public, please contact the author for the dataset. 
 
 
