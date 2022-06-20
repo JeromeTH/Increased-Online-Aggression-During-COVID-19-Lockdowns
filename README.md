@@ -12,7 +12,8 @@ This research consists of 4 parts
 
 ## Twitter Data Sampling
 
-This folder includes all Twitter data sampled in this study. 
+This folder includes all Twitter data sampled in this study. Based on Twitter's privacy policy, we only provide the Tweet ID for each tweet. One can fetch the text and other information via a Twitter developer account.  
+The "Tweets by states" subfolder contains Tweet samples from each state, 
 
 ## Training the BERT model
 
