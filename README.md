@@ -13,7 +13,10 @@ This research consists of 4 parts
 ## Twitter Data Sampling
 
 This folder includes all Twitter data sampled in this study. Based on Twitter's privacy policy, we only provide the Tweet ID for each tweet. One can fetch the text and other information via a Twitter developer account.  
-The "Tweets by states" subfolder contains Tweet samples from each state, 
+
+The "Tweets by states" subfolder contains Tweet samples from each state, along with the emotion analysis by our trained BERT model. 
+
+The "Human_Annotated" File is used to evaluate our mode's performance by comparing predictions with 2 native English annotators. 
 
 ## Training the BERT model
 
