@@ -22,7 +22,9 @@ The "Human_Annotated" File is used to evaluate our mode's performance by compari
 
 Source code for this part is located in the "Model Training" folder
 
-This includes standard datapreprocessing for BERT models, training procedures, and model evaluation. The training data has a "Split" label with 0 meaning training, 1 meaning validation, and 2 meaning testing. 
+The "Training data" subfolder includes: labeled training data for each of the three aggressive emotions. The training data has a "Split" label with 0 meaning training, 1 meaning validation, and 2 meaning testing. 
+
+The "Training Code" subfolder includes: Datapreprocessing for BERT models, training procedures, and model evaluation. 
 
 ## Analyzing Trends of Aggressive Emotions
 
