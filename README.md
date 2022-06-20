@@ -29,3 +29,15 @@ This includes standard datapreprocessing for BERT models, training procedures, a
 In this section, we used the trained BERT model, one for each of the three emotions, to analyze aggression in our spatiotemporal dataset of US tweets. The data itself is included in the 
 
 
+## References
+1. Dorottya Demszky, D.M.-A., Jeongwoo Ko, Alan Cowen, Gaurav Nemade, Sujith Rav, Go Emotions: A Dataset of Fine-Grained Emotions. Association of Computational Linguistics (ACL), 2020.
+2. Davidson, T., et al. Automated hate speech detection and the problem of offensive language. in Proceedings of the International AAAI Conference on Web and Social Media. 2017.
+3. Founta, A.M., et al. Large scale crowdsourcing and characterization of twitter abusive behavior. in Twelfth International AAAI Conference on Web and Social Media. 2018.
+4. Devlin, J., et al., Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018
+
+
+
+
+
+
+
