@@ -40,6 +40,12 @@ The main analysis happen in these three files:
 
 Other files are supplementary files that are imported as a python extension for the main analysis files. 
 
+## Causal Analysis using STATA
+
+We performed our causal analysis using the STATA BE 17.0 software, to replicate this section, one need to install the STATA software. 
+Each .dta includes 4600 datapoints that corresponds to one datapoint in each 50 states for 92 weeks. 
+
+One can follow the STATA command file to replicate the causal analysis performed in this study. 
 
 ## References
 1. Dorottya Demszky, D.M.-A., Jeongwoo Ko, Alan Cowen, Gaurav Nemade, Sujith Rav, Go Emotions: A Dataset of Fine-Grained Emotions. Association of Computational Linguistics (ACL), 2020.
