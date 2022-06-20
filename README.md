@@ -28,7 +28,17 @@ The "Training Code" subfolder includes: Datapreprocessing for BERT models, train
 
 ## Analyzing Trends of Aggressive Emotions
 
-In this section, we used the trained BERT model, one for each of the three emotions, to analyze aggression in our spatiotemporal dataset of US tweets. The data itself is included in the 
+In this section, we used the trained BERT model, one for each of the three emotions, to analyze aggression in our spatiotemporal dataset of US tweets. 
+
+The main analysis happen in these three files:
+
+"weekly_percentages.py" instructs the BERT model to analyze tweets in each state and save results in a separate folder. In this case, we already provided the analyzed version of the data in the "Twitter Data Samplings" folder. 
+
+"Weekly_Lockdown.py" visualizes the weekly trends of aggression between groups under and not under lockdown. 
+
+"From_Lockdown.py" aligned data based on weeks from the start of lockdown (different in each state). The starting week of lockdown is week 0, while one week into lockdown is week 1, one week before lockdown is week -1. 
+
+Other files are supplementary files that are imported as a python extension for the main analysis files. 
 
 
 ## References
