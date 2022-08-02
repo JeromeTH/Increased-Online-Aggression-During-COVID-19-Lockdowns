@@ -1,4 +1,4 @@
-# NLP_Covid_19_Twitter_Aggression_Study
+# Increased Online Aggression During COVID-19 Lockdowns: Two-Stage Study of Deep Text Mining and Difference-in-Differences Analysis
 
 ## Basic Description
 
